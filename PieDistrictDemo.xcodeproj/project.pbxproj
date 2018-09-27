@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		6E7DAB81208A5ADD00921401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DAB80208A5ADD00921401 /* AppDelegate.swift */; };
-		6E7DAB83208A5ADD00921401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DAB82208A5ADD00921401 /* ViewController.swift */; };
 		6E7DAB86208A5ADD00921401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7DAB84208A5ADD00921401 /* Main.storyboard */; };
 		6E7DAB89208A5ADD00921401 /* PieDistrictDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DAB87208A5ADD00921401 /* PieDistrictDemo.xcdatamodeld */; };
 		6E7DAB8B208A5ADD00921401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7DAB8A208A5ADD00921401 /* Assets.xcassets */; };
 		6E7DAB8E208A5ADD00921401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7DAB8C208A5ADD00921401 /* LaunchScreen.storyboard */; };
+		6E7DAB97208A5B3300921401 /* StateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DAB96208A5B3300921401 /* StateListView.swift */; };
+		6E7DAB99208A5D8F00921401 /* Territory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DAB98208A5D8F00921401 /* Territory.swift */; };
+		6E7DAB9B208A5E6A00921401 /* DataBaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DAB9A208A5E6A00921401 /* DataBaseHandler.swift */; };
+		6E7DAB9D208A5FD400921401 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DAB9C208A5FD400921401 /* AlertController.swift */; };
+		6E7DAB9F208A603300921401 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DAB9E208A603300921401 /* NetworkInterface.swift */; };
+		6E7DABA5208A6C2D00921401 /* StateListHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DABA4208A6C2D00921401 /* StateListHandler.swift */; };
+		6E84B4E2215CFC1900F93536 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E84B4E1215CFC1900F93536 /* Update.swift */; };
+		6EF4FA44208B2175008B4018 /* AutoCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF4FA43208B2175008B4018 /* AutoCompleteView.swift */; };
+		6EF4FA4A208B45EC008B4018 /* StateListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF4FA48208B45EC008B4018 /* StateListCell.swift */; };
+		6EF4FA4B208B45EC008B4018 /* StateListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF4FA49208B45EC008B4018 /* StateListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E7DAB7D208A5ADD00921401 /* PieDistrictDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieDistrictDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7DAB80208A5ADD00921401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E7DAB82208A5ADD00921401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E7DAB85208A5ADD00921401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E7DAB88208A5ADD00921401 /* PieDistrictDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PieDistrictDemo.xcdatamodel; sourceTree = "<group>"; };
 		6E7DAB8A208A5ADD00921401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E7DAB8D208A5ADD00921401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E7DAB8F208A5ADD00921401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7DAB96208A5B3300921401 /* StateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListView.swift; sourceTree = "<group>"; };
+		6E7DAB98208A5D8F00921401 /* Territory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Territory.swift; sourceTree = "<group>"; };
+		6E7DAB9A208A5E6A00921401 /* DataBaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHandler.swift; sourceTree = "<group>"; };
+		6E7DAB9C208A5FD400921401 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		6E7DAB9E208A603300921401 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		6E7DABA4208A6C2D00921401 /* StateListHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListHandler.swift; sourceTree = "<group>"; };
+		6E84B4E1215CFC1900F93536 /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
+		6EF4FA43208B2175008B4018 /* AutoCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteView.swift; sourceTree = "<group>"; };
+		6EF4FA48208B45EC008B4018 /* StateListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListCell.swift; sourceTree = "<group>"; };
+		6EF4FA49208B45EC008B4018 /* StateListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StateListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +74,12 @@
 		6E7DAB7F208A5ADD00921401 /* PieDistrictDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6E7DAB80208A5ADD00921401 /* AppDelegate.swift */,
-				6E7DAB82208A5ADD00921401 /* ViewController.swift */,
+				6E84B4E0215CFBDF00F93536 /* UpdateGroup */,
+				6E7DABA3208A6BCF00921401 /* Controller */,
+				6E7DABA2208A6BBD00921401 /* Global */,
+				6E7DABA1208A6B9C00921401 /* Model */,
+				6E7DABA0208A6B8A00921401 /* AppDelegate */,
+				6E7DAB95208A5AFD00921401 /* ViewController */,
 				6E7DAB84208A5ADD00921401 /* Main.storyboard */,
 				6E7DAB8A208A5ADD00921401 /* Assets.xcassets */,
 				6E7DAB8C208A5ADD00921401 /* LaunchScreen.storyboard */,
@@ -65,6 +87,67 @@
 				6E7DAB87208A5ADD00921401 /* PieDistrictDemo.xcdatamodeld */,
 			);
 			path = PieDistrictDemo;
+			sourceTree = "<group>";
+		};
+		6E7DAB95208A5AFD00921401 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6E7DAB96208A5B3300921401 /* StateListView.swift */,
+				6EF4FA43208B2175008B4018 /* AutoCompleteView.swift */,
+				6EF4FA47208B45A1008B4018 /* UITableviewCell */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6E7DABA0208A6B8A00921401 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6E7DAB80208A5ADD00921401 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6E7DABA1208A6B9C00921401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E7DAB98208A5D8F00921401 /* Territory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E7DABA2208A6BBD00921401 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				6E7DAB9C208A5FD400921401 /* AlertController.swift */,
+				6E7DAB9E208A603300921401 /* NetworkInterface.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		6E7DABA3208A6BCF00921401 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E7DABA4208A6C2D00921401 /* StateListHandler.swift */,
+				6E7DAB9A208A5E6A00921401 /* DataBaseHandler.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E84B4E0215CFBDF00F93536 /* UpdateGroup */ = {
+			isa = PBXGroup;
+			children = (
+				6E84B4E1215CFC1900F93536 /* Update.swift */,
+			);
+			path = UpdateGroup;
+			sourceTree = "<group>";
+		};
+		6EF4FA47208B45A1008B4018 /* UITableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EF4FA48208B45EC008B4018 /* StateListCell.swift */,
+				6EF4FA49208B45EC008B4018 /* StateListCell.xib */,
+			);
+			path = UITableviewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +212,7 @@
 				6E7DAB8E208A5ADD00921401 /* LaunchScreen.storyboard in Resources */,
 				6E7DAB8B208A5ADD00921401 /* Assets.xcassets in Resources */,
 				6E7DAB86208A5ADD00921401 /* Main.storyboard in Resources */,
+				6EF4FA4B208B45EC008B4018 /* StateListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +223,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E7DAB83208A5ADD00921401 /* ViewController.swift in Sources */,
+				6E84B4E2215CFC1900F93536 /* Update.swift in Sources */,
+				6EF4FA44208B2175008B4018 /* AutoCompleteView.swift in Sources */,
 				6E7DAB81208A5ADD00921401 /* AppDelegate.swift in Sources */,
+				6E7DAB97208A5B3300921401 /* StateListView.swift in Sources */,
+				6E7DAB9B208A5E6A00921401 /* DataBaseHandler.swift in Sources */,
+				6E7DAB9F208A603300921401 /* NetworkInterface.swift in Sources */,
+				6E7DABA5208A6C2D00921401 /* StateListHandler.swift in Sources */,
+				6E7DAB99208A5D8F00921401 /* Territory.swift in Sources */,
+				6E7DAB9D208A5FD400921401 /* AlertController.swift in Sources */,
+				6EF4FA4A208B45EC008B4018 /* StateListCell.swift in Sources */,
 				6E7DAB89208A5ADD00921401 /* PieDistrictDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -266,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -281,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L665RRN8MH;
 				INFOPLIST_FILE = PieDistrictDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MEEM.PieDistrictDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L665RRN8MH;
 				INFOPLIST_FILE = PieDistrictDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MEEM.PieDistrictDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
